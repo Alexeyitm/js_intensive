@@ -1,1 +1,1 @@
-# js_intensive
+# Homework (JS-Intensive)
