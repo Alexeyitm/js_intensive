@@ -1,1 +1,1 @@
-# Homework (JS-Intensive)
+# Homework (JS-Intensive) - Script Notation
