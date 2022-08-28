@@ -1,10 +1,10 @@
-const makeObjectDeepCopy = (arr) => {
+const makeObjectDeepCopy = (obj) => {
   const result = {};
-  for (let key in arr) {
-      if (typeof arr[key] == "function" || !arr[key].length || typeof arr[key] != "object") {
-        result[key] = arr[key];
+  for (let key in obj) {
+      if (typeof obj[key] == "function" || !obj[key].length || typeof obj[key] != "object") {
+        result[key] = obj[key];
       } else {
-        result[key] = makeObjectDeepCopy(arr[key]);
+        result[key] = makeObjectDeepCopy(obj[key]);
       }
   }
   return result;
